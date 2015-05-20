@@ -1,0 +1,52 @@
+NET "clk" LOC = "B8";
+NET "rst" LOC = "P11";
+
+NET "R[0]" LOC = "C14";
+NET "R[1]" LOC = "D13";
+NET "R[2]" LOC = "F13";
+
+NET "G[0]" LOC = "F14";
+NET "G[1]" LOC = "G13";
+NET "G[2]" LOC = "G14";
+
+NET "B[0]" LOC = "H13";
+NET "B[1]" LOC = "J13";
+
+NET "vga_out_hsync" LOC = "J14";
+NET "vga_out_vsync" LOC = "K13";
+
+NET "left" LOC = "L3";
+NET "left_2" LOC = "N3";
+NET "flag" LOC = "m5";
+
+NET "switch" LOC = "E2";
+NET "AI_switch" LOC = "F3";
+
+NET "OUT[6]" LOC = "L14";
+NET "OUT[5]" LOC = "H12";
+NET "OUT[4]" LOC = "N14";
+NET "OUT[3]" LOC = "N11";
+NET "OUT[2]" LOC = "P12";
+NET "OUT[1]" LOC = "L13";
+NET "OUT[0]" LOC = "M12";
+
+
+NET "EN[0]" LOC = "f12";
+NET "EN[1]" LOC = "j12";
+NET "EN[2]" LOC = "m13";
+NET "EN[3]" LOC = "k14";
+
+//Player 1
+NET "SS"   LOC = "B2";
+NET "MOSI" LOC = "A3";
+NET "MISO" LOC = "J3";
+NET "SCLK" LOC = "B5";
+
+//Player 2
+NET "SS_P2"   LOC = "C12";
+NET "MOSI_P2" LOC = "A13";
+NET "MISO_P2" LOC = "C13";
+NET "SCLK_P2" LOC = "D12";
+
+
+NET "test" LOC = "G1";
